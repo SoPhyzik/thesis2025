@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid
+  }
+
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+  
+  p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.container {
+	max-width: 55rem;
+	margin: 5vw auto 12px auto;
+	border: 6px ridge var(--border);
+	outline: 3px solid var(--gradientTop);
+	outline-offset: 4px;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	gap: 5px;
+}
+
+/*column widths*/
+.small { flex: 1 1 9%; }
+.large { flex: 1 1 82%; }
+.full { flex: 1 1 100%; }
+.half { flex: 1 1 49%; }
+
