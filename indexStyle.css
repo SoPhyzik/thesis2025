@@ -11,9 +11,6 @@ these tended to confuse some people, so I only kept
 the images as variables */
 
 :root {
-    --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-    --body-bg-image: <img src="images\catmoons.jpg">
-
     /* colors */
     --content: #3f375e;
 }
@@ -54,7 +51,7 @@ and then link it! Many fonts have separate files for each style
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #08031A;
     /* you can delete the line below if you'd prefer to not use an image */
@@ -77,6 +74,7 @@ before and after the text */
 /* if you want something (like the header) to be Wider than
 the other elements, you will need to move that div outside
 of the container */
+
 #container {
     max-width: 900px;
     /* this is the width of your layout! */
@@ -89,11 +87,16 @@ and change the media query according to the comment! */
 /* the area below is for all links on your page
 EXCEPT for the navigation */
 #container a {
-    color: #3f3527;
+    color: #e4982e;
     font-weight: bold;
     /* if you want to remove the underline
 you can add a line below here that says:
 text-decoration:none; */
+}
+
+#container li a:hover {
+    color: #a49cba;
+    text-decoration: underline;
 }
 
 #header {
@@ -182,7 +185,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 }
 
 footer {
-    background-color: #13092D;
+
     /* background color for footer */
     width: 100%;
     height: 40px;
@@ -191,19 +194,28 @@ footer {
     /* this centers the footer text */
 }
 
-h1,
-h2,
+h2 {
+    color: #f6e7e7;
+    font-family:'Courier New', Courier, monospace;
+}
 h3 {
     color: #f6e7e7;
+    font-family:'Courier New', Courier, monospace;
 }
 
 h1 {
     font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
 }
+
+h4 {
+    font-family:'Courier New', Courier, monospace;
+}
+
 
 strong {
     /* this styles bold text */
-    color: #ED64F5;
+    color: #e0d19f;
 }
 
 /* this is just a cool box, it's the darker colored one */
