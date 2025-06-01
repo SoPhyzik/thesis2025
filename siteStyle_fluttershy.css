@@ -55,10 +55,9 @@ and then link it! Many fonts have separate files for each style
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #08031A;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
     /* you can delete the line below if you'd prefer to not use an image */
-    background-image: url("images/onefish.jpg");
-    background-size: 450px;
     color: #efbbcc;
 }
 
@@ -194,7 +193,7 @@ footer {
 h1,
 h2,
 h3 {
-    color: #ffff;
+    color: #efbbcc;
 }
 
 h1 {
