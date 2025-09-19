@@ -56,12 +56,33 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     background: #000000;
-    /* you can delete the line below if you'd prefer to not use an image */
     color: greenyellow;
+    cursor:url(
+        "http://www.rw-designer.com/cursor-extern.php?id=231220, auto"), auto;
+    
 }
-
 * {
     box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 /* below this line is CSS for the layout */
@@ -89,9 +110,6 @@ EXCEPT for the navigation */
 #container a {
     color: yellowgreen;
     font-weight: bold;
-    /* if you want to remove the underline
-you can add a line below here that says:
-text-decoration:none; */
 }
 
 #header {
