@@ -158,8 +158,15 @@ aside {
     padding: 10px;
     font-size: smaller;
     /* this makes the sidebar text slightly smaller */
+    height: fit-content;
 }
 
+iframe {
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
+    border-style:none;
+}
 
 /* this is the color of the main content area,
 between the sidebars! */
@@ -168,6 +175,7 @@ main {
     flex: 1;
     padding: 20px;
     order: 2;
+    height: fit-content;
 }
 
 /* what's this "order" stuff about??

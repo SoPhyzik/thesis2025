@@ -102,7 +102,7 @@ text-decoration:none; */
     /* this is only for a background image! */
     /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
-    background-image: var(--header-image);
+    background-image: url("images\soapbubblesbanner.jpg");
     background-size: 100%;
 }
 
@@ -153,6 +153,7 @@ aside {
     width: 200px;
     padding: 20px;
     font-size: smaller;
+    height: fit-content;
     /* this makes the sidebar text slightly smaller */
 }
 
