@@ -214,6 +214,16 @@ strong {
     padding: 10px;
 }
 
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
 /* CSS for extras */
 
 #topBar {
